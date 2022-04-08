@@ -1,44 +1,87 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Koalateer</title>
-        <link rel = "stylesheet" type="text/css" href = "style.css"/>
-    </head>
-    <header>
-        <img src = "https://www.google.com/search?q=wikipedia+logo&sxsrf=APq-WBt_oVS5U5b3zjzdkAdV_Id_ldso0g:1648854248409&tbm=isch&source=iu&ictx=1&vet=1&fir=SQ7NQhvUTW7T9M%252Cq3scoYGvOU0OOM%252C%252Fg%252F121w6c1b%253Bx1u__pmmnPZ89M%252CjtmlK5a2-61H6M%252C_%253BqvEx1FFFdT2-XM%252COnzyKFbTv60gKM%252C_%253Bc3KZrmxOqvMtYM%252CST17syxxVIRLeM%252C_%253B5Or0sKqSfFDHmM%252C8uiJqajFjGJe5M%252C_%253BEB4sC2zykBbB8M%252CV3Ua7v9yzx989M%252C_%253BvvpE3za21X8Y7M%252CT6v-HDCs5HdkbM%252C_&usg=AI4_-kQMeXP7O8tj-GtkxhsUeA4b5Qr-0A&sa=X&ved=2ahUKEwiy4oze_PP2AhVkkokEHVlDBC0Q_B16BAhmEAE#imgrc=SQ7NQhvUTW7T9M"> logo >
-        <div class = "container">
-           <a href="index.html" class="active">Home</a>
-           <a href="prod-desc.html">About Us</a>
-           <a href="about.html">Services</a>
-           <a href="why.html">Why?</a>
-        </div>
-    </header>
-    <body>
-        <section id = "intro">
-           <br><br><br>
-           <h1>KOALA • TEER (n.)</h1>
-           <h2>An app designed to help "Koala-ty" volunteers and organizations</h2>
-        </section>
-        <br><br><br>
-        <section id = "descrip">
-            <div id = "dbox"> 
-               <h2> Description </h2>
-               <p>description....<p>
-               <h3> Learn More </h3>
-            </div>
-        </section>
-        <br><br><br><br><br><br>
-        <section id = "stats">
-        </section>
-        <section id = "contact">
-            <h2>Are you looking to make an impact, but don't know how? We're here to help. We just need a new details from you.</h2>
-            <form>
-              <label for="name">Name:</label><br>
-              <input type="text" id="name" name="name"><br>
-              <label for="lname">Last name:</label><br>
-              <input type="text" id="lname" name="lname">
-            </form>
-        </section>
-    <body>
- </html>
 
+<head>
+    <title>Koalateer</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<header>
+    <img id="Logo" class="float-start" src="KoalateerLogo.png" width="150" height="95" style="margin-left:90px" />
+    <div class="d-flex justify-content-lg-end">
+        <div class="p-3"><a href="index.html" class="active">Home</a></div>
+        <div class="p-3"><a href="about.html">About Us</a></div>
+        <div class="p-3"><a href="service.html">Services</a></div>
+        <div class="p-3"> <a href="why.html">Why?</a></div>
+    </div>
+</header>
+
+<body>
+    <section id="intro" class="container-fluid">
+        <br><br>
+        <img class="float-end" src="KoalaBamboo.png" style="align-content: right" /><br><br><br><br><br>
+        <h1>KOALA • TEER (n.)</h1>
+        <h2 class="mr">An app designed to help "Koala-ty" volunteers <br> and organizations</h2>
+    </section>
+    <br><br><br>
+
+    <section id="descrip" class="container-fluid" class=".col-xxl-">
+        <div class="white-box">
+            <h2> Who Are We?</h2> <br>
+            <p id="desc">Koalateer is a nonprofit organization where we match students with volunteer opportunities that
+                cater to their interests. This is to limit uncertainty through third-party websites and to get reliable
+                information on an opportunity with interest to the individual. This application plans to have a
+                rewarding aspect to it, to make volunteering competitive, yet fun, and a social media aspect for all
+                volunteers to connect and share their experiences.
+                This company was inspired by students who themselves had struggled to find volunteer positions,
+                especially during quarantine, to fulfill requirements and for the college admissions process. This took
+                the fun out of volunteering. With Koalateer we are shifting the mindset of volunteering from an
+                obligation to a joyful, exciting activity.
+            <p>
+                <br><a href="service.html" class="learn-more-btn"> Learn More </a>
+        </div>
+    </section>
+    <br>
+    <section id="stats" class="container-fluid" class=".col-xxl-">
+        <br>
+        <h2 class="lefthead">But Why Volunteer?</h2>
+        <div class="d-flex justify-content-evenly">
+            <div class="p-3">
+                <div class="white-boxSTAT"></div>
+            </div>
+            <div class="p-3">
+                <div class="white-boxSTAT"></div>
+            </div>
+            <div class="p-3">
+                <div class="white-boxSTAT"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <br><br>
+        <h2>Interested in our mission? We just need a few details from you.</h2><br>
+        <form>
+            <div class="d-flex justify-content-xxl-center">
+                <div class="p-3"><input class="flexform" type="text" id="name" name="name" placeholder="Name"></div>
+                <div class="p-3"><input class="flexform" type="text" id="email" name="email"
+                        placeholder="Email Address"></div>
+            </div><br>
+            <label for="reason">Reason for contacting us today:</label><br><br>
+            <select id="reason" class="formin">
+                <option value="">--You are a(n)--</option>
+                <option value="Individual">Individual looking to volunteer</option>
+                <option value="Organization">Organization in need of volunteers</option>
+                <option value="Supporter">Supporter of Koalateer's mission</option>
+                <option value="Other">Not listed above</option>
+            </select><br><br>
+            <textarea class="formin" name="your-message" cols="200" rows="10"
+                placeholder="Message (Optional)"></textarea> <br>
+            <input class="learn-more-btn" type="submit" value="GET STARTED TODAY">
+        </form>
+    </section>
+
+    <body>
+
+</html>
