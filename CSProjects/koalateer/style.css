@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Metamorphous&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Text+Me+One");
+@import url("https://fonts.googleapis.com/css?family=Crete+Round");
+header{
+  font-family: Oswald;
+  font-size: 30px;
+}
+
+body{
+  font-family: Oswald;
+  background: linear-gradient(55deg, #e3e6e4 0%, #efd4cf 43%, #aeb8b4 76%);
+  width: 100%;
+}
+
+
+#intro{
+  text-align: left;
+  margin-left: 150px;
+  height: 300px;
+  width: 90%;
+  padding: 15px;
+}
+
+#stats{
+  background-color: white;
+  height: 100%;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+#contact{
+  background-color: #d5bfee;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  height: 700px;
+}
+h1{
+  font-size: 90px;
+  font-weight: 500;
+}
+h2{
+  font-size: 55px;
+  font-weight: 250;
+}
+#descrip{
+  background: #d5bfee;
+  height: 100%;
+  text-align: center;
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
+
+a {
+  font-family: Oswald;
+  color: #000000 !important;
+  text-decoration: none !important;
+  font-size: 18;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 10px 3px 10px;
+}
+a:hover,
+a.on {
+  color: #c0e3dc;
+  background-color: #63af71;
+  cursor: pointer;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.white-box { position: absolute; width: 1000px; height: 400px; margin-top: 100px; margin-left: 415px;   
+  
+  background: rgba(255, 255, 255, 0.938);
+  padding: 30px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  }
+
+  
+
+  .learn-more-btn {
+    border: 2px solid #f6002d;
+    text-decoration: none !important;
+    padding: 7px 29px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 0.3s;
+    height: 42px;
+}
+
+.white-boxSTAT {  position: relative; width: 350px; height: auto;   
+  
+  background: rgba(255, 255, 255, 0.938);
+  padding: 30px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  }
+  .lefthead{
+    text-align: left;
+    margin-left: 100px;
+  }
+  .flexform{
+    width: 284px;
+    font-size: 14px;
+    padding: 7px 15px;
+    border: 1px solid #ccc;
+  }
+  .formin {
+    width: 600px;
+    font-size: 14px;
+    padding: 7px 15px;
+    margin: 0 0 40px;
+    border: 1px solid #ccc;
+   }
+   
