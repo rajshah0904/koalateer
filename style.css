@@ -24,7 +24,6 @@ body {
 
 #stats {
   background-color: #63af71;
-  height: 100%;
   height: 700px;
   width: 100%;
   position: relative;
@@ -33,7 +32,6 @@ body {
 
 #contact {
   background-color: #d5bfee;
-  height: 100%;
   position: relative;
   width: 100%;
   text-align: center;
