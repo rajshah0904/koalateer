@@ -25,9 +25,8 @@ body {
 }
 
 #stats {
-  background-color: white;
-  height: 100%;
-  height: 300px;
+  background-color: #63af71;
+  height: 700px;
   width: 100%;
   position: relative;
   text-align: center;
@@ -35,7 +34,6 @@ body {
 
 #contact {
   background-color: #d5bfee;
-  height: 100%;
   position: relative;
   width: 100%;
   text-align: center;
@@ -50,6 +48,13 @@ h1 {
 h2 {
   font-size: 55px;
   font-weight: 250;
+}
+
+h3{
+  font-size: 45px;
+  font-weight: 175;
+  padding: 15px;
+  color: white;
 }
 
 #descrip {
