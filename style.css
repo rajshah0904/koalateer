@@ -12,6 +12,8 @@ body {
   font-family: Oswald;
   background: linear-gradient(55deg, #e3e6e4 0%, #efd4cf 43%, #aeb8b4 76%);
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 #intro {
