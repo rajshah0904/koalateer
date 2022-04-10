@@ -1,129 +1,180 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Koalateer</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/png">
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
-<header>
-    <img id="Logo" class="float-start" src="./assets/img/KoalateerLogo.png" width="150" height="95"
-        style="margin-left:90px" />
-    <div class="d-flex justify-content-lg-end">
-        <div class="p-3"><a href="index.html" class="active">Home</a></div>
-        <div class="p-3"><a href="about.html">About Us</a></div>
-        <div class="p-3"><a href="service.html">Services</a></div>
-        <div class="p-3"> <a href="why.html">Why?</a></div>
-    </div>
-</header>
 
 <body>
-    <section id="intro" class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-lg-6 vertical-center">
-                <h1>KOALA &bullet; TEER (n.)</h1>
-                <h2>
-                    An app designed to help "Koala-ty" volunteers and organizations
-                </h2>
-            </div>
-            <div class="d-none d-lg-block col-lg-6">
-                <img class="float-end" src="./assets/img/KoalaBamboo.png" />
-            </div>
+    <header class="navbar">
+        <a href="/" class="navbar-brand">
+            <img class="logo" src="./assets/img/logo.png" alt="logo">
+        </a>
+        <button class="navbar-show btn">
+            <ion-icon name="menu-outline" size="large"></ion-icon>
+        </button>
+
+        <div class="navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="./" class="nav-link">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./about.html" class="nav-link">
+                        About Us
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./services.html" class="nav-link">
+                        Services
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./why.html" class="nav-link">
+                        Why?
+                    </a>
+                </li>
+            </ul>
+
+            <button class="navbar-hide btn">
+                <ion-icon name="close-outline" size="large"></ion-icon>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>
+                KOALA &bullet; TEER (n.)
+            </h1>
+            <p>
+                An app designed to help "koala-ty" volunteers and organizations.
+            </p>
+            <img src="./assets/img/koala_leaves.png" alt="koala leaves" class="hero-img">
         </div>
     </section>
-    <br>
-    <br>
-    <br>
 
-    <section id="descrip" class="container-fluid" class=".col-xxl-">
-        <div class="white-box">
-            <h2>Who Are We?</h2>
-            <br>
-            <p id="desc">Koalateer is a nonprofit organization where we match students with volunteer opportunities that
-                cater to their interests. This is to limit uncertainty through third-party websites and to get reliable
-                information on an opportunity with interest to the individual. This application plans to have a
+    <section class="who">
+        <div class="who-text">
+            <h1>
+                Who are we?
+            </h1>
+
+            <p>
+                Koalateer is a nonprofit organization where we match students with volunteer opportunities that cater to
+                their interests. This is to limit uncertainty through third-party websites and to get reliable
+                information on an opportunity with interest to the individual. Our application plans to have a
                 rewarding aspect to it, to make volunteering competitive, yet fun, and a social media aspect for all
                 volunteers to connect and share their experiences.
-                This company was inspired by students who themselves had struggled to find volunteer positions,
-                especially during quarantine, to fulfill requirements and for the college admissions process. This took
-                the fun out of volunteering. With Koalateer we are shifting the mindset of volunteering from an
-                obligation to a joyful, exciting activity.
             </p>
+
+            <p>
+                This company was inspired by students who themselves
+                had struggled to find volunteer positions, especially during quarantine, to fulfill requirements and for
+                the college admissions process. This took the fun out of volunteering. With Koalateer we are shifting
+                the mindset of volunteering from an obligation to a joyful, exciting activity.
+            </p>
+
             <br>
-            <a href="service.html" class="learn-more-btn"> Learn More </a>
+
+            <a href="./services.html" class="btn btn-landing">
+                LEARN MORE
+            </a>
         </div>
     </section>
-    <br>
-    <section id="stats" class="container-fluid" class=".col-xxl-">
 
-        <h3>
-            <center>High school and college students today are less likely to volunteer or give to charity than those of
-                15 years ago. A lack of awareness of opportunities and the inabilty to find volunteer opportunities that
-                lead them to stop volunteering all together.</center>
-        </h3>
+    <section class="hero-stats">
+        <div class="hero-stats-text">
+            <h1>
+                A few statistics
+            </h1>
 
-        <div class="row">
-            <div class="column" style="background-color:#63af71; color:white;">
-                <img src="impact.png" width="100" height="100" />
-                <p>Only <strong>
-                        <font size="+2">55%</font>
-                    </strong> of nonprofits assess volunteer impact, Koalateer does.</p>
-            </div>
-            <div class="column" style="background-color:#63af71; color:white;">
-                <img src="decline.png" width="100" height="100" />
-                <p>Over the past decade, teenage volunteer rates haved declined by over <strong>
-                        <font size="+2">5%</font>
-                    </strong>.</p>
-            </div>
-            <div class="column" style="background-color:#63af71; color:white;">
-                <img src="charity.png" width="100" height="100" />
-                <p><strong>
-                        <font size="+2">Less than a quarter</font>
-                    </strong> donate to charaity, a rate that has been flat since 2008.</p>
-            </div>
-        </div>
+            <p>
+                High school and college students today are less likely to volunteer or give to charity than those of 15
+                years ago. A lack of awareness of opportunities and the inabilty to find volunteer opportunities that
+                lead them to stop volunteering all together.
+            </p>
 
-        <h3>
-            <center>Koalateer is focused on increasing the rate of student volunteers by providing a source of available
+            <div class="hero-stats-items">
+                <div class="hero-stats-item">
+                    <img src="./assets/img/impact.png" alt="impact" class="hero-stats-img">
+                    <p>
+                        Only <b>55%</b> of nonprofits assess volunteer impact, Koalateer does.
+                    </p>
+                </div>
+
+                <div class="stat-item">
+                    <img src="./assets/img/decline.png" alt="impact" class="hero-stats-img">
+                    <p>
+                        Over the past decade, teenage volunteer rates haved declined by over <b>5%</b>.
+                    </p>
+                </div>
+
+                <div class="stat-item">
+                    <img src="./assets/img/charity.png" alt="impact" class="hero-stats-img">
+                    <p>
+                        <b>Less than a quarter</b> donate to charaity, a rate that has been flat since 2008.
+                    </p>
+                </div>
+            </div>
+
+            <p>
+                Koalateer is focused on increasing the rate of student volunteers by providing a source of available
                 opportunities that align with their specific interests and abilities.
-                <br><br>Through our service, students will be exposed to a multitude of volunteer opportunities that
-                cater to their interests and are feasible for them to undertake. We will account for a variety of
-                factors such as <strong>distance, time, commitment, availibility, and interests.</strong>
-            </center>
-        </h3>
+            </p>
 
+            <br>
 
+            <a href="./why.html" class="btn btn-landing">
+                LEARN MORE
+            </a>
+        </div>
     </section>
 
-    <section id="contact">
-        <br>
-        <br>
-        <h2>Interested in our mission? We just need a few details from you.</h2><br>
-        <form>
-            <div class="d-flex justify-content-xxl-center">
-                <div class="p-3"><input class="flexform" type="text" id="name" name="name" placeholder="Name"></div>
-                <div class="p-3"><input class="flexform" type="text" id="email" name="email"
-                        placeholder="Email Address"></div>
+    <section class="hero-contact">
+        <div class="hero-contact-text">
+            <h1>
+                Interested in our mission?
+            </h1>
+
+            <p>
+                We just need a few details from you.
+            </p>
+
+            <div class="contact-form">
+                <input type="text" name="name" id="name" class="contact-form-item" placeholder="Name">
+                <input type="email" name="email" id="email" class="contact-form-item" placeholder="Email">
+                <select name="description" id="reason" class="contact-form-item">
+                    <option value="" selected disabled>--You are a(n)--</option>
+                    <option value="">Individual looking to volunteer</option>
+                    <option value="">Organization in need of volunteers</option>
+                    <option value="">Supporter of Koalateer's mission</option>
+                    <option value="">Not listed above</option>
+                </select>
+                <textarea name="reason" id="reason" cols="30" rows="10" class="contact-form-item"
+                    placeholder="Reason for contacting us today"></textarea>
             </div>
+
             <br>
-            <label for="reason">Reason for contacting us today:</label><br><br>
-            <select id="reason" class="formin">
-                <option value="">--You are a(n)--</option>
-                <option value="Individual">Individual looking to volunteer</option>
-                <option value="Organization">Organization in need of volunteers</option>
-                <option value="Supporter">Supporter of Koalateer's mission</option>
-                <option value="Other">Not listed above</option>
-            </select>
-            <br>
-            <br>
-            <textarea class="formin" name="your-message" cols="200" rows="10" placeholder="Message (Optional)">
-            </textarea>
-            <br>
-            <input class="learn-more-btn" type="submit" value="GET STARTED TODAY">
-        </form>
+
+            <button class="btn btn-landing">
+                GET STARTED TODAY
+            </button>
+        </div>
     </section>
 
-    <body>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
 
 </html>
