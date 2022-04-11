@@ -1,9 +1,11 @@
 $(() => {
   const navbarCollapse = $(".navbar-collapse");
+  const whoImg = $(".who-img");
   const windowWidth = parseInt($(window).width());
 
   if (windowWidth < 1200) {
     navbarCollapse.hide();
+    whoImg.hide();
   }
 
   const navbarShow = $(".navbar-show");
