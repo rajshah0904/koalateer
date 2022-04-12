@@ -65,7 +65,7 @@ body {
   left: 0;
   background-color: var(--white);
   text-align: center;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .navbar-nav {
@@ -286,9 +286,10 @@ h1 {
     position: relative;
     display: block;
     width: 40%;
-    height: inherit;
+    max-height: inherit;
     background-color: transparent;
     margin-left: auto;
+    overflow-y: visible;
   }
 
   .navbar-nav {
