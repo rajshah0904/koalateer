@@ -166,14 +166,14 @@ h1 {
 }
 
 .who {
-  background-color: var(--purple);
+  background-color: rgb(0, 45, 19);
 }
 
 .who-text,
 .hero-stats-text,
 .hero-contact-text {
   padding: 10%;
-  background-color: var(--white);
+  background-color: rgb(255, 199, 0);
 }
 
 .who-text > h1,
@@ -236,7 +236,7 @@ h1 {
 }
 
 .hero-contact {
-  background-color: var(--red);
+  background-color: rgb(0, 45, 19);
 }
 
 .contact-form {
