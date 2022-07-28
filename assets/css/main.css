@@ -154,12 +154,25 @@ section {
   align-items: center;
 }
 
+.app {
+  background: linear-gradient(55deg, #e3e6e4 0%, #efd4cf 43%, #aeb8b4 76%);
+  padding: 1vh 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .hero-text {
   min-height: 40vh;
   margin-top: 20vh;
 }
 
 .features-text {
+  min-height: 40vh;
+  margin-top: 20vh;
+}
+
+.app-text {
   min-height: 40vh;
   margin-top: 20vh;
 }
@@ -176,10 +189,18 @@ h1 {
   display: block;
 }
 
+.screenshot-img {
+  width: auto;
+  height: 30vh;
+  display: block;
+}
+
 .who,
+.service,
 .origin,
 .hero-stats,
 .features,
+.app,
 .hero-contact {
   padding: 2vh 20px;
   display: flex;
@@ -191,31 +212,41 @@ h1 {
   background-color: var(--green);
 }
 
+.service {
+  background-color: var(--green);
+}
+
 .origin {
   background-color: var(--gray);
 }
 
 .who-text,
+.service-text,
 .origin-text,
 .hero-stats-text,
 .features-text,
+.app-text,
 .hero-contact-text {
   padding: 10%;
   background-color: var(--white);
 }
 
 .who-text > h1,
+.service-text > h1,
 .origin-text > h1,
 .hero-stats-text > h1,
 .features-text > h1,
+.app-text > h1,
 .hero-contact-text > h1 {
   margin-top: 0;
 }
 
 .who-text > p,
+.service-text > p,
 .origin-text > p,
 .hero-stats-text > p,
 .features-text > p,
+.app-text > p,
 .hero-contact-text > p {
   font-size: 0.9rem;
 }
@@ -258,8 +289,13 @@ h1 {
   background-color: var(--white);
 }
 
+.app {
+  background-color: var(--white);
+}
+
 .hero-stats-text,
 .features-text,
+.app-text,
 .hero-contact-text {
   text-align: center;
 }
@@ -269,7 +305,8 @@ h1 {
 }
 
 .hero-about-items
-.features-items {
+.features-items
+.app-items {
   margin: 5vh 0;
 }
 
@@ -353,6 +390,11 @@ h1 {
     grid-template-columns: 8fr 4fr;
   }
 
+  .app-screenshot {
+    align-items: center;
+    align-content: space-between;
+  }
+
   .hero-about {
     min-height: 100vh;
     display: grid;
@@ -393,7 +435,16 @@ h1 {
     height: 40vh;
   }
 
+  .app-screenshot-img {
+    height: 40vh;
+  }
+
   .who {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+  }
+
+  .service {
     display: grid;
     grid-template-columns: 4fr 8fr;
   }
@@ -423,11 +474,22 @@ h1 {
     margin: 5vh 10%;
   }
 
+  .app-items {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin: 5vh 10%;
+  }
+
   .hero-contact-text {
     width: 100%;
   }
 
   .features-text {
+    width: 100%;
+  }
+
+  .app-text {
     width: 100%;
   }
 
